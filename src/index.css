@@ -20,6 +20,16 @@ body{
   border: none;
 }
 
+.merch{
+  position: relative;
+  border: none;
+  background-color: transparent;
+  border-radius: 2rem;
+  top: 0.5rem;
+  transition: transform 0.2s;
+  width: 100%;
+}
+
 .spot{
   position: relative;
   border: none;
@@ -39,7 +49,7 @@ body{
 
 .head{
   position: relative;
-  top: -3rem;
+  top: 3rem;
 }
 
 .albums{
@@ -70,10 +80,6 @@ body{
 
 .site-title{
   text-decoration: none;
-}
-
-.navImg{
-  left: 5%;
 }
 
 .navCont{
@@ -125,14 +131,30 @@ body{
 .about{
   font-size: 1.75rem;
   color: white;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
   position: relative;
   top: -4rem;
  
 }
 
+
+.navImg{
+  
+}
+
 .burger{
   background: none;
   border: none;
+  transition: rotate 0.2s;
+}
+
+.burgerMenu{
+  font-family: oswald;
+  font-size: 215%;
+  border-radius: 1rem;
+  background-color: #f9ead7;
+  padding: 1rem;
+  top: 5rem;
+  color: black;
 }

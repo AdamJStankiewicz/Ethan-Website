@@ -3,6 +3,8 @@ import Head from './Head';
 import About from './About';
 import Home from './Home';
 import Links from './Links';
+import Merch from './Merch';
+import BurgerMenu from './BurgerMenu';
 
 function App() {
   let mainContent
@@ -15,6 +17,9 @@ function App() {
       break;
     case "/links":
       mainContent = <Links />;
+      break;
+    case "/merch":
+      mainContent = <Merch />;
       break;
     default:
       mainContent = <Home />;
