@@ -2,7 +2,7 @@ import { Grid } from 'antd';
 import Burger from './Burger';
 import Options from './Options';
 import BurgerMenu from './BurgerMenu';
-
+import Socials from './Socials';
 
 function Nav(){
     const { useBreakpoint } = Grid;
@@ -14,9 +14,12 @@ function Nav(){
             <nav className="nav">
                 <a href="/" className="site-title">ETHAN GANDER</a>
                 <img className="navImg" src="/vintage1utlrawide.png" width={1000}>
+                    
                 </img>
                 <Options />
+                
             </nav>
+        
         </div>
     }
     if(breakpoints.lg){
@@ -24,10 +27,9 @@ function Nav(){
 
             <nav className="nav">
                 <a href="/" className="site-title">ETHAN GANDER</a>
-                <img className="navImg" src="/vintage1utlrawide.png" width={500}></img>
+                <img className="navImg" src="/vintage1wide.jpg" width={500}></img>
                 <Options />
             </nav>
-            <h1 className="headTitle">musician | composer | producer</h1>
         </div>
     }
     if(breakpoints.sm){

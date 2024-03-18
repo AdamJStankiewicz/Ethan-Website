@@ -4,7 +4,9 @@ import About from './About';
 import Home from './Home';
 import Links from './Links';
 import Merch from './Merch';
+import Contact from './Contact';
 import BurgerMenu from './BurgerMenu';
+import { Content } from 'antd/es/layout/layout';
 
 function App() {
   let mainContent
@@ -20,6 +22,9 @@ function App() {
       break;
     case "/merch":
       mainContent = <Merch />;
+      break;
+    case "/contact":
+      mainContent = <Contact />;
       break;
     default:
       mainContent = <Home />;

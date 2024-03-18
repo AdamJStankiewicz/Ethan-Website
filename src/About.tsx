@@ -7,11 +7,11 @@ function About(){
     let imgPos = "0rem";
     let fntSize = "1.75rem";
 
-    if(breakpoints.xxl) {imgSize = 300; imgPos = "-3rem"}
-    else if(breakpoints.xl) {imgSize = 300; imgPos = "-3rem"}
-    else if(breakpoints.md) {imgSize = 200; imgPos = "3rem"}
-    else if(breakpoints.sm) {imgSize = 100; imgPos = "3rem"}
-    else if(breakpoints.xs) {imgSize = 200; imgPos = "3rem"}
+    if(breakpoints.xxl) {imgSize = 300; imgPos = "1rem"}
+    else if(breakpoints.xl) {imgSize = 300; imgPos = "1rem"}
+    else if(breakpoints.md) {imgSize = 200; imgPos = "-5rem"}
+    else if(breakpoints.sm) {imgSize = 200; imgPos = "-5rem"}
+    else if(breakpoints.xs) {imgSize = 200; imgPos = "2rem"}
     return <div className="about" style={{top : imgPos}}>
         <img className="aboutImg" src="/testimages/graffiti.jpg" width={imgSize}></img>
 

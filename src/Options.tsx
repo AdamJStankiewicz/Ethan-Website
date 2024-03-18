@@ -1,10 +1,15 @@
+import Socials from "./Socials";
+
 function Options(){
-    return <ul>
+    return <div>
+    <ul>
     <li> <a href="/about">ABOUT</a> </li>|
-    <li> <a href="/links">SOCIALS</a></li>|
-    <li> <a href="/merch">MERCH</a></li>
+    <li> <a href="/merch">MERCH</a></li>|
+    <li> <a href="/contact">CONTACT</a></li>
     
-</ul>;
+</ul>
+<Socials/>
+</div> 
 }
 
 export default Options;

@@ -52,6 +52,23 @@ body{
   top: 3rem;
 }
 
+.links{
+  position: relative;
+  top: 3rem;
+}
+
+.social-icons{
+  position: relative;
+  padding: 1%;
+}
+
+.burger-social-icons{
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  padding: 1%;
+}
+
 .albums{
   text-align: center;
 }
@@ -67,6 +84,54 @@ body{
 }
 
 .albums img:not(:hover){
+  transform: scale(0.95);
+}
+
+.price_tag{
+  
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: oswald;
+  font-style: bold;
+  border-radius: 3rem;
+  position: relative;
+  background-color: #f9ead7;
+
+}
+
+.merch_item{
+  text-decoration: none;
+  display: inline-block;
+  height: 0rem;
+}
+
+.merch_item img{
+  display: block;
+}
+
+
+.merch_items{
+  text-align: center;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+
+.merch_items img{
+  text-decoration: none;
+  border-radius: 3rem;
+  padding: 0.25rem;
+  transition: transform 0.2s;
+}
+
+.merch_items img:hover{
+  transform: scale(1.05);
+}
+
+.merch_items img:not(:hover){
   transform: scale(0.95);
 }
 
@@ -129,12 +194,12 @@ body{
 }
 
 .about{
+  
   font-size: 1.75rem;
   color: white;
   margin-left: 5%;
   margin-right: 5%;
   position: relative;
-  top: -4rem;
  
 }
 
@@ -150,6 +215,7 @@ body{
 }
 
 .burgerMenu{
+  filter: drop-shadow(-0.5rem 0rem 0.5rem #000000);
   font-family: oswald;
   font-size: 215%;
   border-radius: 1rem;
@@ -158,3 +224,17 @@ body{
   top: 5rem;
   color: black;
 }
+
+.contactTitle{
+  text-align: center;
+  font-family: oswald;
+  font-size: 400%;
+}
+
+.merchTitle{
+  text-align: center;
+  font-family: oswald;
+  font-size: 400%;
+  color: white;
+}
+
