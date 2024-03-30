@@ -226,6 +226,12 @@ body{
   font-size: 400%;
 }
 
+.contactParagraph{
+  text-align: center;
+  font-family: oswald;
+  font-size: 200%;
+}
+
 .merchTitle{
   text-align: center;
   font-family: oswald;
@@ -233,3 +239,7 @@ body{
   color: white;
 }
 
+.footerText{
+  font-family: oswald;
+  color: white;
+}

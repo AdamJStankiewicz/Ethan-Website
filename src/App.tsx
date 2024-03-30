@@ -5,8 +5,6 @@ import Home from './Home';
 import Links from './Links';
 import Merch from './Merch';
 import Contact from './Contact';
-import BurgerMenu from './BurgerMenu';
-import { Content } from 'antd/es/layout/layout';
 
 function App() {
   let mainContent
