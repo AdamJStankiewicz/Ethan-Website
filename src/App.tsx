@@ -5,6 +5,8 @@ import Home from './Home';
 import Links from './Links';
 import Merch from './Merch';
 import Contact from './Contact';
+import Footer from './components/Footer'
+
 
 function App() {
   let mainContent
@@ -31,6 +33,7 @@ function App() {
   return <div>
     <Nav />
     {mainContent}
+    <Footer/>
     </div>;
     
 }
