@@ -42,25 +42,25 @@ function Merch(){
                     
                     <text className='price_tag' style={{height:tagHeight,width:tagWidth,fontSize:fontSize,bottom:tagB,right:tagR}}> $26 </text>
                 </a>
-                <a className="merch_item" href="https://cdn.shopify.com/s/files/1/0677/1150/0574/files/unisex-premium-hoodie-black-front-646aea15f17cd.jpg?v=1684728351"  target="_blank">
+                <a className="merch_item" href="https://shop.spotify.com/en/artist/6lRAIvgICW7hhoZHsm49hT/product/vintage-black-tee?utm_source=spotify&utm_medium=app-artistprofile&utm_term=00a466d4d0876b516ca11e088b0c490b8b4c22c04dbae999317451"  target="_blank">
       
                     <img  src="https://cdn.shopify.com/s/files/1/0677/1150/0574/products/cuffed-beanie-dark-grey-front-637bd4f36fe00.jpg?v=1669059843"  width={imgSize} ></img>
                     
                     <text className='price_tag' style={{height:tagHeight,width:tagWidth,fontSize:fontSize,bottom:tagB,right:tagR}}> $20 </text>
                 </a>
-                <a className="merch_item" href="https://cdn.shopify.com/s/files/1/0677/1150/0574/files/unisex-premium-hoodie-black-front-646aea15f17cd.jpg?v=1684728351"  target="_blank">
+                <a className="merch_item" href="https://shop.spotify.com/en/artist/6lRAIvgICW7hhoZHsm49hT/product/vintage-black-tee?utm_source=spotify&utm_medium=app-artistprofile&utm_term=00a466d4d0876b516ca11e088b0c490b8b4c22c04dbae999317451"  target="_blank">
       
                     <img  src="https://cdn.shopify.com/s/files/1/0677/1150/0574/products/eco-tote-bag-oyster-front-63755c98a8a14.jpg?v=1668635809"  width={imgSize} ></img>
                     
                     <text className='price_tag' style={{height:tagHeight,width:tagWidth,fontSize:fontSize,bottom:tagB,right:tagR}}> $22 </text>
                 </a>
-                <a className="merch_item" href="https://cdn.shopify.com/s/files/1/0677/1150/0574/files/unisex-premium-hoodie-black-front-646aea15f17cd.jpg?v=1684728351"  target="_blank">
+                <a className="merch_item" href="https://shop.spotify.com/en/artist/6lRAIvgICW7hhoZHsm49hT/product/vintage-black-tee?utm_source=spotify&utm_medium=app-artistprofile&utm_term=00a466d4d0876b516ca11e088b0c490b8b4c22c04dbae999317451"  target="_blank">
       
                     <img  src="https://cdn.shopify.com/s/files/1/0677/1150/0574/files/unisex-premium-hoodie-black-front-646aea15f17cd.jpg?v=1684728351"  width={imgSize} ></img>
                     
                     <text className='price_tag' style={{height:tagHeight,width:tagWidth,fontSize:fontSize,bottom:tagB,right:tagR}}> $65 </text>
                 </a>
-                <a className="merch_item" href="https://cdn.shopify.com/s/files/1/0677/1150/0574/files/unisex-premium-hoodie-black-front-646aea15f17cd.jpg?v=1684728351"  target="_blank">
+                <a className="merch_item" href="https://shop.spotify.com/en/artist/6lRAIvgICW7hhoZHsm49hT/product/vintage-black-tee?utm_source=spotify&utm_medium=app-artistprofile&utm_term=00a466d4d0876b516ca11e088b0c490b8b4c22c04dbae999317451"  target="_blank">
       
                     <img  src="https://cdn.shopify.com/s/files/1/0677/1150/0574/files/recycled-tracksuit-jacket-black-front-646af134520be.jpg?v=1684730168"  width={imgSize} ></img>
                     
